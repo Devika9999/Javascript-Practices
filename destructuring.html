@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring</title>
+</head>
+<body>
+    <script>
+
+        // swap the value of two variables
+        let a = 1;
+        let b = 2;
+
+        [a, b] = [b, a];
+        console.log(a);
+        console.log(b);
+
+
+
+
+        // example 2
+        // SWAP 2 elements in an array
+
+        const colors = ["red", "green", "blue", "black", "white"];
+
+        [colors[0], colors[4]] = [colors[4], colors[0]];
+
+        console.log(colors);
+        
+    </script>
+</body>
+</html>
